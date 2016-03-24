@@ -1,0 +1,7 @@
+<h5>Current bids</h5>
+		<div class="" style="height: 200px; overflow-y: auto">
+			<p ng-repeat="bids in p2Bids | filter : p2Search track by $index">{{bids.username}}: ${{bids.bid}}</p>
+		</div>
+		<input type="text" name="p2Search" placeholder="Search" ng-model="p2Search">
+
+	</div>

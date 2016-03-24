@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "kerberos": "0.0.19",
+    "mongoose": "^4.4.8",
+    "mongoose-deep-populate": "^2.0.3"
+  }
+}
